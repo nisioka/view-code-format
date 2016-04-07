@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<!-- 参考URL：http://www.tagindex.com/template/layout/2column_cha1.html -->
+<!-- 参考URL：http://blog.thingslabo.com/archives/000004.html -->
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+@charset "UTF-8";
+/* --- 全体の背景・テキスト --- */
+body {
+margin: 0;
+padding: 0;
+background-color: #ffffff; /* ページの背景色 */
+color: #000000; /* 全体の文字色 */
+font-size: 100%; /* 全体の文字サイズ */
+}
+
+/* --- 全体のリンクテキスト --- */
+a:link { color: #0000ff; }
+a:visited { color: #800080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff0000; }
+
+/* --- コンテナ --- */
+#container {
+width: 96%; /* ページの幅 */
+margin: 0 auto; /* センタリング */
+background: url(./img/sidebar_200.gif) repeat-y left; /* サイドバーの背景画像 */
+background-color: #ffffff; /* メインカラムの背景色 */
+border-left: 1px #c0c0c0 solid; /* 左の境界線 */
+border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+}
+
+/* --- ヘッダ --- */
+#header {
+background-color: #ffe080; /* ヘッダの背景色 */
+}
+
+/* --- ナビゲーション --- */
+#nav {
+float: left;
+width: 200px; /* サイドバーの幅 */
+}
+
+/* --- メインカラム --- */
+#content {
+margin-left: 200px; /* メインカラムの左マージン（サイドバーの幅以上） */
+}
+
+/* --- フッタ --- */
+#footer {
+clear: left; /* フロートのクリア */
+width: 100%;
+background-color: #ffe080; /* フッタの背景色 */
+}
+</style>
+
+<link href="./google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="./google-code-prettify/prettify.js"></script>
+
+<title>ページのタイトル</title>
+
+</head>
+<body onload="prettyPrint()">
+
+<!-- コンテナ開始 -->
+<div id="container">
+
+
+<!-- ヘッダ開始 -->
+<div id="header">
+［ヘッダ］
+</div>
+<!-- ヘッダ終了 -->
+
+<!-- ナビゲーション開始 -->
+<div id="nav">
+［サイドバー］
+</div>
+<!-- ナビゲーション終了 -->
+
+<!-- メインカラム開始 -->
+<div id="content">
+<pre class="prettyprint">
+<code class="prettyprint">
+<!-- ここにコードを記載。使用サイト：http://good-tool.net/webtool/wt09seikeihtml.php -->
+
+</code>
+</pre>
+</div>
+<!-- メインカラム終了 -->
+
+<!-- フッタ開始 -->
+<div id="footer">
+［フッタ］
+</div>
+<!-- フッタ終了 -->
+
+
+</div>
+<!-- コンテナ終了 -->
+
+</body>
+</html>
